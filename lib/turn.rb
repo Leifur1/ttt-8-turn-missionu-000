@@ -49,5 +49,6 @@ def turn?(board)
     move(board, index)
   else
     puts "Please enter a valid input 1-9:"
+    user_input = gets.strip
   end
 end
