@@ -1,15 +1,5 @@
-def display_board?(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+#!/usr/bin/env ruby
+require_relative '../lib/turn'
 
-def valid_move?(board, index)
-  if ((board[index] == " ") || (board[index] == "") || (board[index] == nil))
-    false
-  else
-    true
-  end
-end
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
